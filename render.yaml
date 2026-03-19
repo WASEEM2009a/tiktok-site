@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pywebio-app
+    name: tiktok-site
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
